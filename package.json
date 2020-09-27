@@ -1,0 +1,38 @@
+{
+    "name": "whistle.version-info",
+    "version": "0.0.1",
+    "description": "展示应用的版本信息",
+    "homepage": "http://reamd.cnblogs.com",
+    "main": "./lib",
+    "bin": {
+        "ver": "./lib/version.js",
+        "ver-ci": "./test.js"
+    },
+    "dependencies": {
+        "axios": "^0.20.0",
+        "commander": "^6.1.0",
+        "koa": "^2.7.0",
+        "koa-bodyparser": "^4.2.1",
+        "koa-onerror": "^4.1.0",
+        "koa-router": "^7.4.0",
+        "koa-static": "^5.0.0"
+    },
+    "whistleConfig": {
+        "priority": 1,
+        "hideLongProtocol": true,
+        "hideShortProtocol": true,
+        "menuConfig": {
+            "baseUrl": "http://imweb.nohost.pro:8080"
+        },
+        "networkMenus": [{
+                "name": "分享到Nohost",
+                "page": "/menu.html",
+                "required": true
+            },
+            {
+                "name": "查看分享记录",
+                "page": "/menu.html"
+            }
+        ]
+    }
+}
