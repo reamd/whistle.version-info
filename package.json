@@ -1,6 +1,6 @@
 {
     "name": "whistle.version-info",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "展示应用的版本信息",
     "homepage": "http://reamd.cnblogs.com",
     "main": "./lib",
