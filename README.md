@@ -25,9 +25,9 @@
     host地址 - 获取远程版本信息地址
     环境列表  - 根据ip匹配显示环境名
     ```
-5. 项目版本hook依赖安装
+5. 项目版本hook配置
     ```js
-    npm i version-info-hook -D
+    ver-hook run <version.json-path> [callback-script-file]
     ```    
 6. 远程版本存放地址（自行解决）
  - 注意事项：`完整地址 = host地址 + 版本分支 + version.json`
