@@ -1,8 +1,8 @@
 {
     "name": "whistle.version-info",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "展示应用的版本信息",
-    "homepage": "http://reamd.cnblogs.com",
+    "homepage": "https://github.com/reamd/whistle.version-info/blob/master/README.md",
     "main": "./lib",
     "dependencies": {
         "axios": "^0.20.0",
